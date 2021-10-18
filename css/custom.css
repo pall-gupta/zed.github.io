@@ -227,7 +227,21 @@ footer {
     background-image: url(../img/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 280px;
+    height: 250px;
+    background-position: bottom;
+    width: 100%;
+    padding: 4rem 12rem;
+}
+
+.footer-links {
+    padding-top: 8rem;
+}
+
+.footer-links .btn {
+    padding: 1.1rem 1.5rem;
+    background: #212121;
+    border: none;
+    font-size: 20px;
 }
 
 .bg-black {
@@ -395,6 +409,13 @@ footer {
     #myVideo {
         width: auto;
     }
+    .footer-bg {
+        padding: 2rem;
+    }
+}
+
+.video-2nd {
+    margin: 10rem 0px;
 }
 
 
