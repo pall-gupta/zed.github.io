@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ZED</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+        <div class="container">
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none" href="#">
+                <img src="img/logo.png" class="img-fluid">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" href="#">Racing <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Breeding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Learn</a>
+                    </li>
+                </ul>
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block bg-success py-4 px-2" href="#">
+                    <img src="img/logo.png" class="img-fluid">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Whats New?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Want to play ZED?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text text-success" href="#"><u><i>START</i></u></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-center main-banner ">
+        <video autoplay muted loop id="myVideo" class="w-100">
+            <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+        </video>
+        <div class="ved-content video animate__animated animate__bounce mb-5">
+            <img class="img-fluid" src="img/banner.png">
+            <!-- <button id="myBtn" class="btn btn-success rounded-circle p-5" onclick="myFunction()"><i class="text-white fa fa-pause "></i></button> -->
+        </div>
+    </div>
+    <!-- <div class="banner d-flex justify-content-center align-items-center"> -->
+    <!-- <div class="video animate__animated animate__bounce"> -->
+    <!-- <img class="img-fluid" src="img/banner.png"> -->
+    <!-- <iframe width="100%" height="450px" class="shadow-lg" src="https://www.youtube.com/embed/3IrWCOG8Wp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <section class="container mt-5">
+        <div class="row align-items-center pt-5">
+            <div class="col-lg-4 offset-md-1">
+                <div class="bg-success bg-content">
+                    <h4 class="text-light fw-normal">The future of digital racecar ownetrship is here. Race your way to the top and build your legacy today.</h4>
+                    <button type="button" class="btn btn-light px-4 mx-4">Start</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-content-right animation-element slide-left">
+                    <img src="img/img1.png" class="img-fluid animate__animated animate__bounceInRight">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" roadmap">
+        <div class="">
+            <div class="row">
+                <div class="col-md-4 offset-md-7 text-center">
+                    <h1 class="text-uppercase text-teko text-light display-1">How it works?</h1>
+                </div>
+            </div>
+            <div class="row px-3">
+                <div class="col-md-3 offset-md-1 animation-element slide-left">
+                    <div class="d-flex flex-column  align-items-center justify-content-center text-center">
+                        <div class="points rounded-circle">
+                            <h1 class="text-light m-0 text-teko">1</h1>
+                        </div>
+                        <h3 class="text-white mt-1">Register</h3>
+                        <p class="text-light mt-1">Register for free atnd participate in unlimited races </p>
+                    </div>
+                </div>
+                <div class="col-md-4  ">
+                    <div class="d-flex flex-column  align-items-center justify-content-center text-center point-2">
+                        <div class="points rounded-circle">
+                            <h1 class="text-light m-0 text-teko">2</h1>
+                        </div>
+                        <h3 class="text-white mt-1">Participate</h3>
+                        <p class="text-light mt-1 px-5">Register for free atnd participate in unlimited races </p>
+                    </div>
+                </div>
+                <div class="col-md-4  animation-element slide slide-right">
+                    <div class="d-flex flex-column  align-items-center justify-content-center text-center point-3">
+
+                        <div class="points rounded-circle">
+                            <h1 class="text-light m-0 text-teko">3</h1>
+                        </div>
+                        <h3 class="text-white mt-1">Earn</h3>
+                        <p class="text-light mt-1 px-5">Register for free atnd participate in unlimited races </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider py-5">
+        <div class="row">
+            <div class="col-md-3 offset-md-1">
+                <h1 class="text-muted text-uppercase text-teko display-5">Next to run</h1>
+                <h1 class="text-white text-uppercase m-0 text-teko border-3 border-success border-start display-5"> &nbsp; up and coming</h1>
+                <button class="btn btn-success px-4 mt-5">View all</button>
+            </div>
+            <div class="col-md-8 animation-element slide slide-right">
+                <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div class="slide-content d-flex">
+                                    <div class="d-flex flex-column">
+                                        <h4 class="m-0 p-0">Lamborghini</h4>
+                                        <p class="m-0 p-0"><small><em>Class 111</em></small></p>
+                                        <p class="m-0 p-0"><strong>$15.45</strong></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-success slide-btn py-0">US</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div class="slide-content">
+                                    <h4 class="m-0 p-0">Lamborghini</h4>
+                                    <p class="m-0 p-0"><small><em>Class 111</em></small></p>
+                                    <p class="m-0 p-0"><strong>$15.45</strong></p>
+                                </div>
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-success slide-btn py-0">US</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div class="slide-content">
+                                    <h4 class="m-0 p-0">Lamborghini</h4>
+                                    <p class="m-0 p-0"><small><em>Class 111</em></small></p>
+                                    <p class="m-0 p-0"><strong>$15.45</strong></p>
+                                </div>
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-success slide-btn py-0">US</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div class="slide-content">
+                                    <h4 class="m-0 p-0">Lamborghini</h4>
+                                    <p class="m-0 p-0"><small><em>Class 111</em></small></p>
+                                    <p class="m-0 p-0"><strong>$15.45</strong></p>
+                                </div>
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-success slide-btn py-0">US</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div class="slide-content">
+                                    <h4 class="m-0 p-0">Lamborghini</h4>
+                                    <p class="m-0 p-0"><small><em>Class 111</em></small></p>
+                                    <p class="m-0 p-0"><strong>$15.45</strong></p>
+                                </div>
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-success slide-btn py-0">US</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div class="slide-content">
+                                    <h4 class="m-0 p-0">Lamborghini</h4>
+                                    <p class="m-0 p-0"><small><em>Class 111</em></small></p>
+                                    <p class="m-0 p-0"><strong>$15.45</strong></p>
+                                </div>
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-success slide-btn py-0">US</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-dark rightLst"><i class="fa fa-arrow-right display-4 fw-lighter text-success"></i></button>
+                    <button class=" btn btn-dark leftLst"><i class="fa fa-arrow-left display-4 fw-light"></i> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider py-5">
+        <div class="row">
+
+            <div class="col-md-8 animation-element slide-left">
+                <div class="MultiCarousel" data-items="1,2,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <h5 class="text-white mt-2">Lamborghini</h5>
+                                <p class="text-success"><strong>$15.45</strong></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <h5 class="text-white mt-2">Lamborghini</h5>
+                                <p class="text-success"><strong>$15.45</strong></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <h5 class="text-white mt-2">Lamborghini</h5>
+                                <p class="text-success"><strong>$15.45</strong></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <h5 class="text-white mt-2">Lamborghini</h5>
+                                <p class="text-success"><strong>$15.45</strong></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <h5 class="text-white mt-2">Lamborghini</h5>
+                                <p class="text-success"><strong>$15.45</strong></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15 ">
+                                <div>
+                                    <img src="img/slide2.png" class="img-fluid w-100">
+                                </div>
+                                <h5 class="text-white mt-2">Lamborghini</h5>
+                                <p class="text-success"><strong>$15.45</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class=" rightLst "><i class="fa fa-arrow-right display-4 fw-lighter text-success "></i></button>
+                    <button class="btn btn-dark leftLst "><i class="fa fa-arrow-left display-4 fw-light "></i> </button>
+                </div>
+            </div>
+            <div class="col-md-3  offset-md-1 ">
+                <h1 class="text-white text-uppercase text-teko display-1 text-right ">on sale</h1>
+                <button class="btn btn-success px-4 mt-3 ">View all</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 bg-black ">
+        <div class="footer-bg ">
+            <div class="container ">
+                <div class="d-flex justify-content-between p-5 ">
+                    <div class=" ">
+                        <h3 class="text-white ">Create your free stable</h3>
+                        <p class="text-light lead ">Become a stable and start racing now to win !</p>
+                        <button class="btn btn-success px-3 ">Start</button>
+                    </div>
+                    <div class=" ">
+                        <img class="img-fluid animation-element slide slide-right" src="img/footer-car.png ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-5 pt-5 ">
+            <!-- Section: Social media -->
+            <section class="mb-4 text-center ">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle " href="#! " role="button "><i class="fab fa-facebook-f "></i
+      ></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle " href="#! " role="button "><i class="fab fa-twitter "></i
+      ></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle " href="#! " role="button "><i class="fab fa-google "></i
+      ></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle " href="#! " role="button "><i class="fab fa-instagram "></i
+      ></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle " href="#! " role="button "><i class="fab fa-linkedin-in "></i
+      ></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle " href="#! " role="button "><i class="fab fa-github "></i
+      ></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center pt-2 pb-5 d-flex justify-content-center align-items-center ">
+            <p class="text-light px-2 m-0 ">Copyright © ZED</p>
+            <a class="text-light px-2 " href=" ">Terms of services</a>
+            <a class="text-light px-2 " href=" ">Privacy Policy</a>
+        </div>
+        <!-- Copyright -->
+        </div>
+    </footer>
+</body>
+<script>
+    var $animation_elements = $('.animation-element');
+    var $window = $(window);
+
+    function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+
+        $.each($animation_elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                (element_top_position <= window_bottom_position)) {
+                $element.addClass('in-view');
+            } else {
+                $element.removeClass('in-view');
+            }
+        });
+    }
+
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+</script>
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = `<i class="text-white fa fa-pause "></i>`;
+        } else {
+            video.pause();
+            btn.innerHTML = `<i class="text-white fa fa-play "></i>`;
+        }
+    }
+</script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+<script src="js/owl_carasual.js "></script>
+
+</html>
