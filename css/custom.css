@@ -304,6 +304,7 @@ footer {
     /* background: #fff; */
     color: #333;
     border-radius: 25px;
+    position: relative;
 }
 
 .MultiCarousel .leftLst {
@@ -357,6 +358,7 @@ footer {
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
     padding-left: 3.9rem;
+    width: 100%;
 }
 
 .slide-btn {
