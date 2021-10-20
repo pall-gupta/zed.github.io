@@ -440,6 +440,7 @@ footer {
     }
     .video {
         margin-top: 0rem;
+        width: 100%;
     }
     #myVideo {
         width: auto;
