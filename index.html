@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ZED</title>
+
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
@@ -70,38 +71,30 @@
             <!-- <button id="myBtn" class="btn btn-success rounded-circle p-5" onclick="myFunction()"><i class="text-white fa fa-pause "></i></button> -->
         </div>
     </div>
-    <!-- <div class="banner d-flex justify-content-center align-items-center"> -->
-    <!-- <div class="video animate__animated animate__bounce"> -->
-    <!-- <img class="img-fluid" src="img/banner.png"> -->
-    <!-- <iframe width="100%" height="450px" class="shadow-lg" src="https://www.youtube.com/embed/3IrWCOG8Wp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-    <!-- </div> -->
-    <!-- </div> -->
-    <!-- <section class="container">
-        <div class="d-flex align-items-center px-5 mx-5">
-            <div class=" bg-success ">
-                <h4 class="text-light fw-normal ">The future of digital racecar ownetrship is here. Race your way to the top and build your legacy today.</h4>
-                <button type="button " class="btn btn-light px-4 mx-4 ">Start</button>
-            </div>
-            <div class="animation-element slide-left bg-black">
-                <img src="img/img1.png " class="img-fluid animate__animated animate__bounceInRight ">
-            </div>
-        </div>
-    </section> -->
-    <section class="container video-2nd ">
-        <div class="row align-items-center justify-content-center ">
-            <div class="col-lg-3 offset-md-2 ">
-                <div class="bg-success bg-content ">
-                    <h4 class="text-light fw-normal ">The future of digital racecar ownetrship is here. Race your way to the top and build your legacy today.</h4>
-                    <button type="button " class="btn btn-light px-4 mx-4 ">Start</button>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3 offset-md-1">
+                    <div class="bg-success my-ved-content">
+                        <h4 class="text-light fw-normal " style="font-size: 22px;">The future of digital racecar ownetrship is here. Race your way to the top and build your legacy today.</h4>
+                        <button type="button " class="btn btn-light px-4 mt-1 ">Start</button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-7 ">
-                <div class="bg-content-right animation-element slide-left ">
-                    <img src="img/img1.png " class="img-fluid animate__animated animate__bounceInRight ">
+                <div class="col-md-7">
+                    <div class="my-ved-border">
+                        <img src="img/ved-border.png" class="img-fluid">
+                        <div class="my-ved-play">
+                            <video autoplay muted loop class="video-link">
+                                <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class=" roadmap ">
         <div class="container ">
             <div class="row ">
@@ -141,8 +134,371 @@
             </div>
         </div>
     </section>
-    <section class="slider py-5 ">
 
+    <section class="slider py-5 ">
+        <div class="container-fluid">
+            <div class="d-flex align-items-start">
+                <div class="col-md-3 offset-md-1">
+                    <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link  text-uppercase display-5 text-teko slide-tab" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Next to run</button>
+                        <button class="nav-link active text-uppercase display-5 text-teko slide-tab" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">up and coming</button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="animation-element slide slide-right">
+                                <div class="MultiCarousel " data-items="1,2,3,4 " data-slide="1 " id="MultiCarousel " data-interval="1000 ">
+                                    <div class="MultiCarousel-inner ">
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-dark rightLst "><i class="fa fa-arrow-right display-4 fw-lighter text-success "></i></button>
+                                    <button class=" btn btn-dark leftLst "><i class="fa fa-arrow-left display-4 fw-light "></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="animation-element slide slide-right">
+                                <div class="MultiCarousel " data-items="1,2,3,4 " data-slide="1 " id="MultiCarousel " data-interval="1000 ">
+                                    <div class="MultiCarousel-inner ">
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div class="slide-content ">
+                                                    <h4 class="m-0 p-0 ">Lamborghini</h4>
+                                                    <p class="m-0 p-0 "><small><em>Class 111</em></small></p>
+                                                    <p class="m-0 p-0 "><strong>$15.45</strong></p>
+                                                </div>
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <div class="d-flex justify-content-end ">
+                                                    <button class="btn btn-success slide-btn py-0 ">US</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-dark rightLst "><i class="fa fa-arrow-right display-4 fw-lighter text-success "></i></button>
+                                    <button class=" btn btn-dark leftLst "><i class="fa fa-arrow-left display-4 fw-light "></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="slider py-5 ">
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col-md-8">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="animation-element slide-left overflow-hidden second-cros">
+                                <div class="MultiCarousel " data-items="1,2,3,4 " data-slide="1 " id="MultiCarousel " data-interval="1000 ">
+                                    <div class="MultiCarousel-inner ">
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class=" rightLst "><i class="fa fa-arrow-right display-4 fw-lighter text-success "></i></button>
+                                    <button class="btn btn-dark leftLst "><i class="fa fa-arrow-left display-4 fw-light "></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="animation-element slide-left overflow-hidden second-cros">
+                                <div class="MultiCarousel " data-items="1,2,3,4 " data-slide="1 " id="MultiCarousel " data-interval="1000 ">
+                                    <div class="MultiCarousel-inner ">
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                        <div class="item ">
+                                            <div class="pad15 ">
+                                                <div>
+                                                    <img src="img/slide2.png " class="img-fluid w-100 ">
+                                                </div>
+                                                <h5 class="text-white mt-2 ">Lamborghini</h5>
+                                                <p class="text-success "><strong>$15.45</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class=" rightLst "><i class="fa fa-arrow-right display-4 fw-lighter text-success "></i></button>
+                                    <button class="btn btn-dark leftLst "><i class="fa fa-arrow-left display-4 fw-light "></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link  text-uppercase display-5 text-teko slide-tab" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Next to run</button>
+                        <button class="nav-link active text-uppercase display-5 text-teko slide-tab" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">up and coming</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- <section class="slider py-5 d-block d-sm-none">
         <div class="row ">
             <div class="col-md-3 offset-md-1 ">
                 <h1 class="text-muted text-uppercase text-teko display-5 ">Next to run</h1>
@@ -248,12 +604,11 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="slider py-5 ">
+    </section>-->
+    <!-- <section class="slider py-5 ">
         <div class="row ">
-
             <div class="col-md-8 animation-element slide-left overflow-hidden second-cros">
-                <div class="MultiCarousel "  data-items="1,2,3,4 " data-slide="1 " id="MultiCarousel " data-interval="1000 ">
+                <div class="MultiCarousel " data-items="1,2,3,4 " data-slide="1 " id="MultiCarousel " data-interval="1000 ">
                     <div class="MultiCarousel-inner ">
                         <div class="item ">
                             <div class="pad15 ">
@@ -319,8 +674,7 @@
                 <button class="btn btn-success px-4 mt-3 ">View all</button>
             </div>
         </div>
-    </section>
-
+    </section> -->
     <footer class="mt-5 bg-black ">
         <div class="footer-bg ">
             <div class="container ">
