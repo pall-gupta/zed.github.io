@@ -1,16 +1,16 @@
 /* teko-500 - latin */
 
 @font-face {
-    font-family: 'Teko';
+    font-family: "Teko";
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/teko-v10-latin-500.eot');
+    src: url("../fonts/teko-v10-latin-500.eot");
     /* IE9 Compat Modes */
-    src: local(''), url('../fonts/teko-v10-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/teko-v10-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/teko-v10-latin-500.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/teko-v10-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/teko-v10-latin-500.svg#Teko') format('svg');
+    src: local(""), url("../fonts/teko-v10-latin-500.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/teko-v10-latin-500.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../fonts/teko-v10-latin-500.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/teko-v10-latin-500.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/teko-v10-latin-500.svg#Teko") format("svg");
     /* Legacy iOS */
 }
 
@@ -18,32 +18,32 @@
 /* teko-regular - latin */
 
 @font-face {
-    font-family: 'Teko';
+    font-family: "Teko";
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/teko-v10-latin-regular.eot');
+    src: url("../fonts/teko-v10-latin-regular.eot");
     /* IE9 Compat Modes */
-    src: local(''), url('../fonts/teko-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/teko-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/teko-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/teko-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/teko-v10-latin-regular.svg#Teko') format('svg');
+    src: local(""), url("../fonts/teko-v10-latin-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/teko-v10-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("../fonts/teko-v10-latin-regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/teko-v10-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/teko-v10-latin-regular.svg#Teko") format("svg");
     /* Legacy iOS */
 }
 
 @font-face {
-    font-family: 'Graphik';
+    font-family: "Graphik";
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/Graphik-Regular.woff');
+    src: url("../fonts/Graphik-Regular.woff");
     /* IE9 Compat Modes */
 }
 
 @font-face {
-    font-family: 'Graphik';
+    font-family: "Graphik";
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/Graphik-Medium.woff');
+    src: url("../fonts/Graphik-Medium.woff");
     /* IE9 Compat Modes */
 }
 
@@ -314,7 +314,7 @@ footer {
     background: linear-gradient(to left, transparent, #000);
     position: absolute;
     opacity: 0.7;
-    height: 34vh;
+    height: 15.6rem;
     width: 5vw;
     top: 5px;
     border: none;
@@ -323,7 +323,7 @@ footer {
 .MultiCarousel .rightLst {
     position: absolute;
     opacity: 0.9;
-    height: 34vh;
+    height: 15.6rem;
     width: 10vw;
     top: 5px;
     background: linear-gradient(to right, transparent, #000);
@@ -334,11 +334,11 @@ footer {
 .MultiCarousel .leftLst:focus,
 .MultiCarousel .rightLst:focus {
     border: none;
-    box-shadow: none
+    box-shadow: none;
 }
 
 .MultiCarousel .leftLst {
-    left: 0;
+    left: 0px;
 }
 
 .MultiCarousel .rightLst {
@@ -496,4 +496,20 @@ footer {
         height: 85px;
         margin-bottom: 5px;
     }
+}
+
+.second-cros .MultiCarousel {
+    left: -140px;
+}
+
+.second-cros .leftLst {
+    left: 140px;
+}
+
+.slide-right .MultiCarousel {
+    right: -140px;
+}
+
+.slide-right .rightLst {
+    right: 120px;
 }
