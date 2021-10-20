@@ -47,10 +47,12 @@
     /* IE9 Compat Modes */
 }
 
+html,
 body {
     background-color: #212121;
     font-family: 'Graphik';
     overflow-x: hidden;
+    position: relative;
 }
 
 p {
@@ -75,6 +77,7 @@ p {
 .main-banner {
     max-height: 500px;
     overflow: hidden;
+    position: relative;
 }
 
 #myVideo {

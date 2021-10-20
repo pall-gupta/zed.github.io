@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ZED</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+        <div class="container">
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none" href="#">
+                <img src="img/logo.png" class="img-fluid">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Racing <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Breeding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Learn</a>
+                    </li>
+                </ul>
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block bg-success py-4 px-2" href="#">
+                    <img src="img/logo.png" class="img-fluid">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Whats New?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Want to play ZED?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text text-success" href="#"><u><i>START</i></u></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-center main-banner ">
+        <video autoplay muted loop id="myVideo" class="w-100">
+            <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+        </video>
+        <div class="ved-content video animate__animated animate__bounce mb-5">
+            <img class="img-fluid" src="img/banner.png">
+            <!-- <button id="myBtn" class="btn btn-success rounded-circle p-5" onclick="myFunction()"><i class="text-white fa fa-pause "></i></button> -->
+        </div>
+    </div>
+
+    <section class=" video-2nd ">
+        <div class="container">
+            <div class="row align-items-center justify-content-center ">
+                <div class="col-lg-3 offset-md-2 ">
+                    <div class="bg-success bg-content ">
+                        <h4 class="text-light fw-normal ">The future of digital racecar ownetrship is here. Race your way to the top and build your legacy today.</h4>
+                        <button type="button " class="btn btn-light px-4 mx-4 ">Start</button>
+                    </div>
+                </div>
+                <div class="col-lg-7 ">
+                    <div class="bg-content-right animation-element slide-left ">
+                        <img src="img/img1.png " class="img-fluid animate__animated animate__bounceInRight ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="mt-5 bg-black ">
+        <div class="footer-bg ">
+            <div class="container ">
+                <div class="d-flex justify-content-between ">
+                    <div class="  ">
+                        <h3 class="text-white fw-bold">Create your free stable</h3>
+                        <p class="text-light  fs-6">Become a stable and start racing now to win !</p>
+                        <button class="btn btn-success px-5 ">Start</button>
+                    </div>
+                    <div class=" ">
+                        <img class="img-fluid animation-element slide slide-right " width="90%" src="img/footer-car.png ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links ">
+            <!-- Section: Social media -->
+            <section class="mb-4 text-center ">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-facebook-f "></i
+      ></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-twitter "></i
+      ></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-google "></i
+      ></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-instagram "></i
+      ></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-linkedin-in "></i
+      ></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-github "></i
+      ></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-2 rounded-circle " href="#! " role="button "><i class="fab fa-google "></i
+        ></a>
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center pt-4 pb-5 d-flex justify-content-center align-items-center ">
+            <p class="text-light m-0 ">Copyright © ZED</p>
+            <a class="text-light px-3 " href=" ">Terms of services</a>
+            <a class="text-light px-3 " href=" ">Privacy Policy</a>
+        </div>
+        <!-- Copyright -->
+        </div>
+    </footer>
+</body>
+<script>
+    var $animation_elements = $('.animation-element');
+    var $window = $(window);
+
+    function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+
+        $.each($animation_elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                (element_top_position <= window_bottom_position)) {
+                $element.addClass('in-view');
+            } else {
+                $element.removeClass('in-view');
+            }
+        });
+    }
+
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+</script>
+<script>
+    var video = document.getElementById("myVideo ");
+    var btn = document.getElementById("myBtn ");
+
+    function myFunction() {
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = `<i class="text-white fa fa-pause "></i>`;
+        } else {
+            video.pause();
+            btn.innerHTML = `<i class="text-white fa fa-play "></i>`;
+        }
+    }
+</script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+<script src="js/owl_carasual.js "></script>
+
+</html>
