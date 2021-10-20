@@ -351,6 +351,7 @@ footer {
 .MultiCarousel .rightLst.over {
   pointer-events: none;
   /* background: #333; */
+  /* background: #333; */
 }
 
 .slide-content {
