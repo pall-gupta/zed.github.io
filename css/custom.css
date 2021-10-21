@@ -362,7 +362,7 @@ footer {
     padding: 1rem;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
-    padding-left: 3.9rem;
+    /* padding-left: 3.9rem; */
     width: 100%;
 }
 
@@ -419,6 +419,7 @@ footer {
         background-image: none;
         margin: auto;
         height: auto;
+        padding: 3rem 1rem;
     }
     .navbar {
         background: #000;
@@ -578,5 +579,8 @@ footer {
     }
     .second-cros .MultiCarousel {
         left: 0;
+    }
+    .mb-p-0 {
+        padding: 1rem !important;
     }
 }
